@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/fls_armenia_landing/static/css/main.fa34c2e2.css",
+    "main.js": "/fls_armenia_landing/static/js/main.2787cdd3.js",
+    "static/media/small-background.jpeg": "/fls_armenia_landing/static/media/small-background.4ddf8114bb2e38dd4e43.jpeg",
+    "static/media/MullerRegular.ttf": "/fls_armenia_landing/static/media/MullerRegular.7c0a0b947ca151baae3e.ttf",
+    "static/media/MullerBold.ttf": "/fls_armenia_landing/static/media/MullerBold.8a23f34f3542612f3440.ttf",
+    "static/media/first-person.png": "/fls_armenia_landing/static/media/first-person.e47085e195b6032ae7c1.png",
+    "static/media/fls-office.webp": "/fls_armenia_landing/static/media/fls-office.2b619b23433582df173d.webp",
+    "static/media/fls-team.webp": "/fls_armenia_landing/static/media/fls-team.db8b9975276a35db0e3a.webp",
+    "static/media/MullerBold.woff": "/fls_armenia_landing/static/media/MullerBold.53c7c067015e4cf16c43.woff",
+    "static/media/MullerRegular.woff": "/fls_armenia_landing/static/media/MullerRegular.3582a987cefb6de667ff.woff",
+    "static/media/line.svg": "/fls_armenia_landing/static/media/line.3684cf11bed9a9bea77a7e11a8a8f2a1.svg",
+    "static/media/MullerBold.woff2": "/fls_armenia_landing/static/media/MullerBold.316a8c43859c0af04035.woff2",
+    "static/media/MullerRegular.woff2": "/fls_armenia_landing/static/media/MullerRegular.33ae73af0bab56f7dd13.woff2",
+    "static/media/logo.svg": "/fls_armenia_landing/static/media/logo.ce2141edca7c06006a4b32df11647277.svg",
+    "static/media/instagram.svg": "/fls_armenia_landing/static/media/instagram.eec487aaa120e0e82410eebe5d4bd2dc.svg",
+    "index.html": "/fls_armenia_landing/index.html",
+    "static/media/facebook.svg": "/fls_armenia_landing/static/media/facebook.eaf034ba90f2a950f0a4f8312a936509.svg",
+    "main.fa34c2e2.css.map": "/fls_armenia_landing/static/css/main.fa34c2e2.css.map",
+    "main.2787cdd3.js.map": "/fls_armenia_landing/static/js/main.2787cdd3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa34c2e2.css",
+    "static/js/main.2787cdd3.js"
+  ]
+}
