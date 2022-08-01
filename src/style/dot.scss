@@ -1,0 +1,52 @@
+.dot {
+  background: rgb(106,149,233);
+  background: linear-gradient(145deg, rgba(106,149,233,1) 12%, rgba(255,255,255,0) 100%);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  &__img {
+    width: 320px;
+    height: 316px;
+  }
+
+  &--small {
+    width: 94px;
+    height: 94px;
+  }
+
+  &--medium {
+    width: 144px;
+    height: 144px;
+  }
+
+  &--big {
+    width: 320px;
+    height: 320px;
+  }
+
+  &--left-up {
+    position: absolute;
+    left: 10px;
+    top: 32px;
+  }
+
+  &--right-up {
+    position: absolute;
+    right: 10px;
+    top: 32px;
+  }
+
+  &--left-down {
+    position: absolute;
+    left: 10px;
+    bottom: -32px;
+  }
+
+  &--right {
+    position: absolute;
+    right: 38px;
+    bottom: 74px;
+  }
+}

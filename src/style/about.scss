@@ -1,0 +1,67 @@
+.about {
+  height: 540px;
+  background: #ececec;
+  position: relative;
+
+  &__container {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    height: 100%;
+  }
+
+  &__line {
+    position: absolute;
+    width: 1026px;
+    height: 527px;
+    top: 12px;
+    left: -184px;
+  }
+
+  &__img {
+    display: flex;
+    position: absolute;
+    top: 84px;
+    left: 84px;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    width: 457px;
+    height: 338px;
+    //margin: 0 40px 34px 19px;
+    transform: rotate(-5deg);
+  }
+
+  &__photo {
+    transform: rotate(5deg);
+    padding-right: 8px;
+  }
+
+  &__info {
+    width: 468px;
+    color: black;
+    font-weight: 700;
+    margin-right: 40px;
+    margin-top: 90px;
+  }
+
+  &__title {
+    font-size: 40px;
+    margin-bottom: 45px;
+  }
+
+  &__text {
+    font-size: 20px;
+  }
+
+  &__button {
+    color: white;
+    margin-top: 45px;
+    font-size: 15px;
+    width: 243px;
+    height: 55px;
+    line-height: 1.55;
+    border-radius: 30px;
+    background: linear-gradient(180deg, rgba(10,160,247,1) 0%, rgba(19,32,148,1) 100%);
+  }
+}
