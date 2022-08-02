@@ -1,7 +1,17 @@
-import React from 'react';
+import React, {useLayoutEffect, useState} from 'react';
 import {Dot} from './Dot';
 
 export const Terms = () => {
+    const [size, setSize] = useState([0, 0]);
+    useLayoutEffect(() => {
+        function updateSize() {
+            setSize([window.innerWidth]);
+        }
+        window.addEventListener('resize', updateSize);
+        updateSize();
+        return () => window.removeEventListener('resize', updateSize);
+    }, []);
+
     return (
         <div className='terms'>
             <div className='container terms__container'>
@@ -23,7 +33,7 @@ export const Terms = () => {
                         </ul>
                     </div>
                     <Dot size='small' location='left-up'/>
-                    <Dot size='medium' location='right'/>
+                    <Dot size='medium' location={size <=640 ?'left-down' : 'right'}/>
                 </div>
                 <div className='terms__object'>
                     <div className='terms__info'>
@@ -35,11 +45,11 @@ export const Terms = () => {
                             Мы заботимся о наших клиентах и друг о друге.
                         </p>
                     </div>
-                    <Dot size='big' icon={require('../assets/first-person.png')}/>
+                    <Dot size='big' icon={require('../assets/second-person.png')}/>
                     <Dot size='small' location='left-down'/>
                 </div>
                 <div className='terms__object'>
-                    <Dot size='big' icon={require('../assets/first-person.png')}/>
+                    <Dot size='big' icon={require('../assets/third-person.png')}/>
                     <div className='terms__info'>
                         <h3 className='terms__title'>Открытость и <br/>поддержка</h3>
                         <p className='terms__text'>

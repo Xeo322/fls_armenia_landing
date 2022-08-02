@@ -7,8 +7,8 @@
   justify-content: flex-end;
 
   &__img {
-    width: 320px;
-    height: 316px;
+    width: 100%;
+    height: 100%;
   }
 
   &--small {
@@ -24,6 +24,7 @@
   &--big {
     width: 320px;
     height: 320px;
+    overflow: hidden;
   }
 
   &--left-up {
@@ -41,12 +42,100 @@
   &--left-down {
     position: absolute;
     left: 10px;
-    bottom: -32px;
+    bottom: -10px;
   }
 
   &--right {
     position: absolute;
     right: 38px;
-    bottom: 74px;
+    bottom: 38px;
+  }
+}
+
+@media (max-width: 980px) {
+  .dot {
+
+    &--small {
+      width: 70px;
+      height: 70px;
+    }
+
+    &--medium {
+      width: 100px;
+      height: 100px;
+    }
+
+    &--big {
+      width: 280px;
+      height: 280px;
+    }
+
+    &--left-up {
+      position: absolute;
+      left: 10px;
+      top: 10px;
+    }
+
+    &--right-up {
+      position: absolute;
+      right: 10px;
+      top: 32px;
+    }
+
+    &--left-down {
+      position: absolute;
+      left: 10px;
+      bottom: -10px;
+    }
+
+    &--right {
+      position: absolute;
+      right: 38px;
+      bottom: 38px;
+    }
+  }
+}
+
+@media (max-width: 980px) {
+  .dot {
+
+    &--small {
+      width: 40px;
+      height: 40px;
+    }
+
+    &--medium {
+      width: 60px;
+      height: 60px;
+    }
+
+    &--big {
+      width: 280px;
+      height: 280px;
+    }
+
+    &--left-up {
+      position: absolute;
+      left: 10px;
+      top: -20px;
+    }
+
+    &--right-up {
+      position: absolute;
+      right: 10px;
+      top: 32px;
+    }
+
+    &--left-down {
+      position: absolute;
+      left: 10px;
+      bottom: -10px;
+    }
+
+    &--right {
+      position: absolute;
+      right: 38px;
+      bottom: 38px;
+    }
   }
 }
