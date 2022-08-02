@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/fls_armenia_landing/static/css/main.fa34c2e2.css",
-    "main.js": "/fls_armenia_landing/static/js/main.2787cdd3.js",
+    "main.css": "/fls_armenia_landing/static/css/main.cd3dfd1a.css",
+    "main.js": "/fls_armenia_landing/static/js/main.3bebac8d.js",
     "static/media/small-background.jpeg": "/fls_armenia_landing/static/media/small-background.4ddf8114bb2e38dd4e43.jpeg",
+    "static/media/third-person.png": "/fls_armenia_landing/static/media/third-person.839701e9d1ab86887fe7.png",
+    "static/media/second-person.png": "/fls_armenia_landing/static/media/second-person.1dd31ba161481fda40ac.png",
     "static/media/MullerRegular.ttf": "/fls_armenia_landing/static/media/MullerRegular.7c0a0b947ca151baae3e.ttf",
     "static/media/MullerBold.ttf": "/fls_armenia_landing/static/media/MullerBold.8a23f34f3542612f3440.ttf",
     "static/media/first-person.png": "/fls_armenia_landing/static/media/first-person.e47085e195b6032ae7c1.png",
@@ -13,15 +15,16 @@
     "static/media/line.svg": "/fls_armenia_landing/static/media/line.3684cf11bed9a9bea77a7e11a8a8f2a1.svg",
     "static/media/MullerBold.woff2": "/fls_armenia_landing/static/media/MullerBold.316a8c43859c0af04035.woff2",
     "static/media/MullerRegular.woff2": "/fls_armenia_landing/static/media/MullerRegular.33ae73af0bab56f7dd13.woff2",
+    "static/media/flipped-line.svg": "/fls_armenia_landing/static/media/flipped-line.fed427b1f01761c0ff238a3fe7e531b9.svg",
     "static/media/logo.svg": "/fls_armenia_landing/static/media/logo.ce2141edca7c06006a4b32df11647277.svg",
-    "static/media/instagram.svg": "/fls_armenia_landing/static/media/instagram.eec487aaa120e0e82410eebe5d4bd2dc.svg",
     "index.html": "/fls_armenia_landing/index.html",
+    "static/media/instagram.svg": "/fls_armenia_landing/static/media/instagram.eec487aaa120e0e82410eebe5d4bd2dc.svg",
     "static/media/facebook.svg": "/fls_armenia_landing/static/media/facebook.eaf034ba90f2a950f0a4f8312a936509.svg",
-    "main.fa34c2e2.css.map": "/fls_armenia_landing/static/css/main.fa34c2e2.css.map",
-    "main.2787cdd3.js.map": "/fls_armenia_landing/static/js/main.2787cdd3.js.map"
+    "main.cd3dfd1a.css.map": "/fls_armenia_landing/static/css/main.cd3dfd1a.css.map",
+    "main.3bebac8d.js.map": "/fls_armenia_landing/static/js/main.3bebac8d.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa34c2e2.css",
-    "static/js/main.2787cdd3.js"
+    "static/css/main.cd3dfd1a.css",
+    "static/js/main.3bebac8d.js"
   ]
 }
